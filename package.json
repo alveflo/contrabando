@@ -1,0 +1,26 @@
+{
+  "name": "contraband",
+  "version": "1.0.0",
+  "description": "Scans node modules for contraband licenses",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "coffee --bare --no-header -o lib/ -c src/",
+    "start": "npm run build && node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alveflo/contraband.git"
+  },
+  "author": "Victor Alveflo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alveflo/contraband/issues"
+  },
+  "homepage": "https://github.com/alveflo/contraband#readme",
+  "dependencies": {
+    "cli-table": "^0.3.1",
+    "colors": "^1.1.2",
+    "jsonfile": "^3.0.0"
+  }
+}
