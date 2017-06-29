@@ -3,7 +3,7 @@ Scans node modules for contraband licenses
 
 ## Install
 ```
-$ npm install --global alveflo/contraband
+$ npm install --global contrabando
 ```
 ## Usage
 Navigate to your modules entry directory (location of `package.json`) and run
