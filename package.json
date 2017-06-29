@@ -1,6 +1,6 @@
 {
   "name": "contrabando",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Scans node modules for contraband licenses",
   "main": "index.js",
   "scripts": {

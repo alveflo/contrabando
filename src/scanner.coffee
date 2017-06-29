@@ -22,7 +22,7 @@ scan = (pkg, dir, licenses) ->
                 homepage: depPkg.homepage || 'Unknown'
             licenses[dep] = obj
         else
-            licenses[dep].users.push(dep)
+            licenses[dep].users.push(pkg.name)
 
         scan depPkg, dir, licenses
 

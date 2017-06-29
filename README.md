@@ -15,24 +15,24 @@ Navigate to your modules entry directory (location of `package.json`) and run
 ```
 $ contrabando
 ```
-
+Note that it's only the `dependencies` entries that are scanned, not peer/dev/optional/bundled dependencies.
 ### Example
 ##### Terminal output
 ```
-> Scanning module 'contraband'...
-┌─────────────┬───────────────────┬─────────┐
-│ Module      │ User(s)           │ License │
-├─────────────┼───────────────────┼─────────┤
-│ cli-table   │ contraband        │ Unknown │
-├─────────────┼───────────────────┼─────────┤
-│ colors      │ cli-table, colors │ MIT     │
-├─────────────┼───────────────────┼─────────┤
-│ jsonfile    │ contraband        │ MIT     │
-├─────────────┼───────────────────┼─────────┤
-│ graceful-fs │ jsonfile          │ ISC     │
-├─────────────┼───────────────────┼─────────┤
-│ mustache    │ contraband        │ MIT     │
-└─────────────┴───────────────────┴─────────┘
+> Scanning module 'contrabando'...
+┌─────────────┬────────────────────────┬─────────┐
+│ Module      │ User(s)                │ License │
+├─────────────┼────────────────────────┼─────────┤
+│ cli-table   │ contrabando            │ Unknown │
+├─────────────┼────────────────────────┼─────────┤
+│ colors      │ cli-table, contrabando │ MIT     │
+├─────────────┼────────────────────────┼─────────┤
+│ jsonfile    │ contrabando            │ MIT     │
+├─────────────┼────────────────────────┼─────────┤
+│ graceful-fs │ jsonfile               │ ISC     │
+├─────────────┼────────────────────────┼─────────┤
+│ mustache    │ contrabando            │ MIT     │
+└─────────────┴────────────────────────┴─────────┘
 Done! Output saved as .\licenses.html
 ```
 ##### Html Output
