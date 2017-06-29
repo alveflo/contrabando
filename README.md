@@ -38,6 +38,6 @@ Note that it's only the `dependencies` entries that are scanned, not peer/dev/op
 Done! Output saved as .\licenses.html
 ```
 ##### Html Output
-<img src="https://raw.githubusercontent.com/alveflo/contraband/master/output-example.png"><br/>
+<img src="https://raw.githubusercontent.com/alveflo/contrabando/master/output-example.png"><br/>
 ## License
 MIT
