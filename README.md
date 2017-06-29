@@ -5,7 +5,7 @@
 Scans node modules for contraband licenses
 </p>
 </p>
-
+<br/>
 Ok now that's not entirely true. What it really does is that it compares the licenses of your dependencies against your own and redflags all licenses that differs. It also gives you a nice html output that you can use to manually see which dependencies your module has and also which licenses that are smuggled in there, which is quite handy in many cases.
 
 ## Install
