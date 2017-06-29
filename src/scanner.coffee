@@ -19,6 +19,7 @@ scan = (pkg, dir, licenses) ->
                 module: dep
                 version: version
                 license: depPkg.license || 'Unknown'
+                homepage: depPkg.homepage || 'Unknown'
             licenses[dep] = obj
         else
             licenses[dep].users.push(dep)
