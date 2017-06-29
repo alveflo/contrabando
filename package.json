@@ -1,5 +1,5 @@
 {
-  "name": "contraband",
+  "name": "contrabando",
   "version": "1.0.0",
   "description": "Scans node modules for contraband licenses",
   "main": "index.js",
@@ -7,6 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "coffee --bare --no-header -o lib/ -c src/",
     "start": "npm run build && node index.js"
+  },
+  "bin": {
+    "contrabando": "index.js"
   },
   "repository": {
     "type": "git",

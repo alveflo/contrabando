@@ -1,4 +1,4 @@
-# Contraband
+# Contrabando
 Scans node modules for contraband licenses
 
 ## Install
@@ -8,7 +8,7 @@ $ npm install --global alveflo/contraband
 ## Usage
 Navigate to your modules entry directory (location of `package.json`) and run
 ```
-$ conscan
+$ contrabando
 ```
 
 ### Example
@@ -31,7 +31,6 @@ $ conscan
 Done! Output saved as .\licenses.html
 ```
 ##### Html Output
-img
-
+<img src="https://raw.githubusercontent.com/alveflo/contraband/master/output-example.png"><br/>
 ## License
 MIT
