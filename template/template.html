@@ -134,18 +134,23 @@
          <thead>
             <tr>
                <th class="text-left">Module</th>
-               <th class="text-left">License</th>
                <th class="text-left">User(s)</th>
-               <th class="text-left">Homepage</th>
+               <th class="text-left">License</th>
             </tr>
          </thead>
          <tbody class="table-hover">
              {{#dependencies}}
             <tr>
-               <td class="text-left">{{name}}</td>
-               <td class="text-left">{{license}}</td>
+               <td class="text-left"><a href="{{homepage}}" target="_blank">{{name}}</a></td>
                <td class="text-left">{{users}}</td>
-               <td class="text-left"><a href="{{homepage}}" target="_blank">Homepage</a></td>
+               <td class="text-left">
+                 {{#valid}}
+                  <p style="color:green">{{license}}</p>
+                 {{/valid}}
+                 {{^valid}}
+                  <p style="color:red">{{license}}</p>
+                 {{/valid}}
+               </td>
             </tr>
             {{/dependencies}}
          </tbody>
