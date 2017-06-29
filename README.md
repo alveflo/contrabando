@@ -1,5 +1,10 @@
-# Contrabando
+<p align="center">
+<img src="http://clipground.com/images/famouspeople-clipart-10.jpg"><br/>
+<h1 align="center">Contrabando</h1>
+<p align="center">
 Scans node modules for contraband licenses
+</p>
+</p>
 
 ## Install
 ```
